@@ -1,2 +1,8 @@
 #User input to check if is odd or even.
 number = int(input("Which number do you want to check? "))
+
+#Print if the number chosen by the user is even or odd.
+if (number % 2) == 0:
+    print("This is an even number.")
+else:
+    print("This is an odd number.")
